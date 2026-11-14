@@ -1,0 +1,6 @@
+,Accuracy,Accuracy,Consistency,Consistency,DIR,DIR,DP_Diff,DP_Diff
+,mean,std,mean,std,mean,std,mean,std
+Dataset,,,,,,,,
+Adult,-0.0059,0.0017,0.0009,0.0012,0.3073,0.0132,0.0995,0.003
+COMPAS,-0.0026,0.0045,-0.0062,0.004,0.2199,0.0224,0.1589,0.0192
+German,-0.005,0.0111,-0.0039,0.012,0.074,0.0229,0.0616,0.0167
