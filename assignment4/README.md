@@ -89,9 +89,3 @@ Expected sizes: `adult.data` about 3.8 MB, `adult.test` about 1.9 MB, `compas-sc
 | | Accuracy | - | 0.668 ± 0.007 | 0.666 ± 0.009 |
 
 Consistency, balanced accuracy and F1 are in the notebook output and in `results/results_summary.csv`.
-
-## Notes
-
-- Warnings about `tensorflow`, `fairlearn` and `inFairness` at the start are harmless: they only concern AIF360 algorithms that this assignment does not use.
-- The protected attribute stays in the feature matrix (AIF360 default). Reweighing changes only the training weights, and the test data is never modified.
-- German has only 1,000 rows, so single splits are noisy; this is why all numbers are averaged over 10 splits.
